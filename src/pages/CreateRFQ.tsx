@@ -41,9 +41,9 @@ const CreateRFQ = () => {
         description,
         category,
         country,
-        quantity,
-        budget,
-        deadline,
+        quantity: Number(quantity),
+        budget: Number(budget),
+        deadline: deadline || null
       },
     ]);
 
