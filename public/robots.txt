@@ -1,14 +1,17 @@
-User-agent: Googlebot
-Allow: /
-
-User-agent: Bingbot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: facebookexternalhit
-Allow: /
-
 User-agent: *
 Allow: /
+
+# Important pages
+Allow: /rfqs
+Allow: /suppliers
+Allow: /products
+Allow: /demand-map
+Allow: /ai-sourcing
+
+# Block unnecessary paths
+Disallow: /api
+Disallow: /admin
+Disallow: /private
+
+# Sitemap
+Sitemap: https://demandiq.com/sitemap.xml
